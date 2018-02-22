@@ -4,8 +4,8 @@
 
 ## Integrantes do grupo:
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
+* Edison Cury Neto - 41517970
+* Greyce Souza - 31440721
+* Calebe Araújo Cavalcante - 31624588
+* João Paulo Kiciolar Campos - 31742491
+* Guilherme Amaral Costa - 41329937
