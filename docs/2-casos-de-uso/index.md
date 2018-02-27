@@ -25,7 +25,7 @@
 | 2) O sistema mostra o formulário para criar uma nova conta. |
 | 3) O cliente preenche o formulário com os dados necessários. |
 | 4) O sistema recebe e checa se os dados são válidos. |
-| 5) O sistema registra o cliente na aplicação e informa que a operação foi bem-sucedida. |
+| 5) O sistema registra o cliente e informa que a operação foi bem-sucedida. |
 
 | Fluxo Alternativo (2a): Os dados inseridos pelo cliente são inválidos. |
 |---|
@@ -35,7 +35,7 @@
 
 **Instruções do professor**: As tabelas acima mostram um exemplo de especificação de **um único caso de uso**. Lembre-se de especificar cada um dos casos de uso.
 
-### 2.1. Caso de uso **BUSCAR VOO**
+### 2.2. Caso de uso **BUSCAR VOO**
 
 | Campo          | Informação        |
 |---|---|
@@ -54,3 +54,47 @@
 |---|
 | 1) O sistema informa que não há voos de acordo com os dados. |
 | 2) O sistema retorna ao passo (1) do fluxo principal. |
+
+### 2.3. Caso de uso **RESERVAR VOO**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC03              |
+| Nome:          | Reservar voo |
+| Atores:        | Cliente |
+| Sumário:       | Reserva um voo para um cliente |
+
+| Fluxo Principal |
+|---|
+| 1) O cliente seleciona a opção **Reservar voo**. |
+| 2) O sistema mostra as formas de pagamento disponíveis. |
+| 3) O cliente seleciona a forma de pagamento selecionada. |
+| 4) O sistema recebe a forma de pagamento e realiza o processo. |
+| 5) O sistema registra o voo para o cliente e informa que a operação foi bem sucedida. |
+
+| Fluxo Alternativo (2a): Forma de pagamento não aceita. |
+|---|
+| 1) O sistema informa que a forma de pagamento foi recusada. |
+| 2) O sistema retorna ao passo (3) do fluxo principal. |
+
+### 2.4. Caso de uso **CANCELAR VOO**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC04              |
+| Nome:          | Cancelar voo |
+| Atores:        | Cliente |
+| Sumário:       | Cancela o voo de um cliente |
+
+| Fluxo Principal |
+|---|
+| 1) O cliente seleciona um voo reservado. |
+| 2) O cliente seleciona a opção **Cancelar voo**. |
+| 3) O sistema pede a confirmação do cancelamento. |
+| 3) O cliente confirma o cancelamento. |
+| 4) O sistema cancela a reserva de voo do cliente. |
+
+| Fluxo Alternativo (2a): Cliente não confirma o cancelamento. |
+|---|
+| 1) O sistema informa que a reserva de voo não foi cancelada. |
+
