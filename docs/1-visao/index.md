@@ -36,16 +36,16 @@ Este documento apresenta uma solução de software para pessoas que procuram pas
 
 ### Protótipos para funcionalidade 1
 
-![](prototipo1.png)
+![](prototipo1.PNG)
 
 Fonte: Página web Travel Mack.
 
 ### Protótipos para funcionalidade 2
 
-![](prototipo2.png)
+![](prototipo2.PNG)
 
 Fonte: Página web Travel Mack.
 
 ### Protótipos para funcionalidade 3
 
-![](prototipo3.png)
+![](prototipo3.PNG)
