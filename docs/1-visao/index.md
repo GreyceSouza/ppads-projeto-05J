@@ -36,14 +36,16 @@ Este documento apresenta uma solução de software para pessoas que procuram pas
 
 ### Protótipos para funcionalidade 1
 
-![](proto1.png)
+![](prototipo1.png)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
+Fonte: Página web Travel Mack.
 
 ### Protótipos para funcionalidade 2
 
-![](proto2.png)
+![](prototipo2.png)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
+Fonte: Página web Travel Mack.
 
-### Protótipos para funcionalidade N
+### Protótipos para funcionalidade 3
+
+![](prototipo3.png)
