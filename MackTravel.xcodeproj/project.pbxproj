@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2020392B2048BFFF00750117 /* FlightListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2020392A2048BFFF00750117 /* FlightListViewController.swift */; };
 		206A7C1A2047012300F8E53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206A7C192047012300F8E53B /* AppDelegate.swift */; };
 		206A7C1C2047012300F8E53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206A7C1B2047012300F8E53B /* ViewController.swift */; };
 		206A7C1F2047012300F8E53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206A7C1D2047012300F8E53B /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2020392A2048BFFF00750117 /* FlightListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListViewController.swift; sourceTree = "<group>"; };
 		206A7C162047012300F8E53B /* MackTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MackTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206A7C192047012300F8E53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		206A7C1B2047012300F8E53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				206A7C192047012300F8E53B /* AppDelegate.swift */,
 				206A7C1B2047012300F8E53B /* ViewController.swift */,
 				20BC96F9204888CD0042C45A /* RegisterViewController.swift */,
+				2020392A2048BFFF00750117 /* FlightListViewController.swift */,
 				206A7C1D2047012300F8E53B /* Main.storyboard */,
 				206A7C232047012300F8E53B /* Assets.xcassets */,
 				206A7C252047012300F8E53B /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 				206A7C302047013F00F8E53B /* DataManager.swift in Sources */,
 				20BC96FA204888CD0042C45A /* RegisterViewController.swift in Sources */,
 				206A7C222047012300F8E53B /* MackTravel.xcdatamodeld in Sources */,
+				2020392B2048BFFF00750117 /* FlightListViewController.swift in Sources */,
 				206A7C1A2047012300F8E53B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
