@@ -1,0 +1,19 @@
+{
+  "name": "travelmack-orquestrador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edison Cury Neto",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.3",
+    "request": "^2.83.0"
+  }
+}
