@@ -14,7 +14,7 @@ protocol DataManagerDelegate : class {
 
 
 class DataManager {
-    public var API_BASE_URL: String = ""
+    public var API_BASE_URL: String = "http://localhost:3000/"
     weak var delegate:DataManagerDelegate?
     static var shared = DataManager()
     
@@ -27,12 +27,12 @@ class DataManager {
     
     
     
-    func getFlightList(input: String){
+    func getFlights(origin: String, destination: String, departure_date: String, return_date: String?){
         DispatchQueue.main.async {
-            HTTPHandler.post(urlString: self.API_BASE_URL, parameter: [], completionHandler: {(data: Data?) -> Void in
+            HTTPHandler.get(urlString: "\(self.API_BASE_URL)/list?origin=\(origin)&destination=\(destination)&departure_date=\(departure_date)&return_date=\(return_date)", completionHandler: {(data: Data?) -> Void in
                 if let data = data {
                     do {
-                        
+                        print(data)
                     } catch{
                         
                     }

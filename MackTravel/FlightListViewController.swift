@@ -25,10 +25,7 @@ class FlightListViewController: UIViewController, UITableViewDelegate, UITableVi
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
-        self.logoutBtn.layer.borderWidth = 1.0
-        self.logoutBtn.layer.cornerRadius = 3.0
-        self.logoutBtn.layer.borderColor = UIColor.white.cgColor
-        self.logoutBtn.clipsToBounds = true
+        
         
     }
 
@@ -48,9 +45,6 @@ class FlightListViewController: UIViewController, UITableViewDelegate, UITableVi
         return cell
     }
     
-    @IBAction func logout(_ sender: Any) {
-        self.performSegue(withIdentifier: "logoutSegue", sender: nil)
-    }
     
     
     

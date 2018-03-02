@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func login(_ sender: Any) {
-        self.performSegue(withIdentifier: "flightSegue", sender: nil)
+        self.performSegue(withIdentifier: "selectFlightSegue", sender: nil)
     }
     
     @IBAction func register(_ sender: Any) {
