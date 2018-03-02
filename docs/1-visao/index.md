@@ -1,76 +1,51 @@
-# Documento de Visão do Projeto "NOME DO PROJETO"
+# Documento de Visão do Projeto "Travel Mack"
 
-Este documento apresenta uma solução de software para o projeto *"NOME DO PROJETO"*, solicitado pelo cliente *"NOME DO CLIENTE"*, 
-apresentando os problemas a serem solucionados, as necessidades dos principais envolvidos, o alcance do projeto e as funcionalidades 
-esperadas do sistema.
+Este documento apresenta uma solução de software para pessoas que procuram passagens aéreas com os preços mais baratos do mercado.
 
-## Objetivos
+## Objetivo
 
-* Objetivo 1
-* Objetivo 2
-* Objetivo 3
-* etc.
+* Oferecer uma plataforma de fácil acesso para procurar e comparar passagens aéreas com os preços mais baratos dentre as diversas empresas aéreas.
 
 ## Problema
 
-* Descrição do problema: ___
-* Quem é afetado pelo problema: ____
-* Impacto no negócio: ___
-* Benefícios de uma boa solução: ___
-
-## Definições, abreviações e outros termos do domínio do problema
-
-* Definição 1
-* Definição 2
-* Definição 3
-* etc.
+* Descrição do problema: Dificuldade em reunir informações sobre os preços de passagens aéreas disponibilizados pelas empresas do segmento.
+* Quem é afetado pelo problema: Pessoas que estão à procura de um serviço que otimize o tempo e a burocracia na compra de passagens aéreas.
+* Impacto no negócio: Melhora de serviços por parte das empresas aéreas devido a facilidade do usuário em comparar preços e o tipo de serviço que estas fornecem. Possibilitando, assim, que cada pessoa escolha sua passagem de acordo com sua necessidade.
+* Benefícios de uma boa solução: Uma melhor e mais eficiente experiência pelos usuários em compra de passagens aéreas.
 
 ## Integração com outros sistemas
 
-* Sistema externo 1
-* Sistema externo 2
-* Sistema externo 3
-* etc.
- 
-## Interessados
-
-* Tipo de interessado 1
-* Tipo de interessado 2
-* Tipo de interessado 3
-* etc.
+* Amadeus Travel Innovation Sandbox.
+* CloudantNoSQL
+* IBM Cloud
 
 ## Usuários
 
-* Tipo de usuário 1
-* Tipo de usuário 2
-* Tipo de usuário 3
-* etc.
+* Cliente interessado em comprar um passagem aérea.
 
-## Funcionalidades do produto
+## Funcionalidade do produto
 
-* Funcionalidade 1
-* Funcionalidade 2
-* etc.
+* Mostrar passagens com o preço mais baixo do mercado.
 
 ## Restrições do projeto
 
-* Restrição 1
-* Restrição 2
-* Restrição 3
-* etc.
+* Aplicação mobile apenas para iOS.
+* Página web será adaptado para todos os navegadores.
 
 ## Protótipos de tela
 
 ### Protótipos para funcionalidade 1
 
-![](proto1.png)
+![](prototipo1.PNG)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
+Fonte: Página web Travel Mack.
 
 ### Protótipos para funcionalidade 2
 
-![](proto2.png)
+![](prototipo2.PNG)
 
-Fonte: Exemplos gerados pelo assistente do **Enterprise Architect**.
+Fonte: Página web Travel Mack.
 
-### Protótipos para funcionalidade N
+### Protótipos para funcionalidade 3
+
+![](prototipo3.PNG)
