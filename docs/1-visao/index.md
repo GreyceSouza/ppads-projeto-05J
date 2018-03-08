@@ -21,6 +21,8 @@ Este documento apresenta uma solução de software para pessoas que procuram pas
 
 > **Comentário do professor:** CloudantNoSQL e IBM Cloud não seriam as plataformas de hospedagem da aplicação?
 
+> **Comentário do professor:** Não haveria integração com sistema de e-mail, que seria utilizada durante a criação da conta?
+
 ## Usuários
 
 * Cliente interessado em comprar um passagem aérea.
